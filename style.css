@@ -1,0 +1,105 @@
+h1{
+    padding-bottom: 21px;
+}
+.box{
+    background-color:rgb(23, 229, 201);
+    margin-top: 12%;
+    margin-bottom: 12%;
+    height: 380px;
+    width: 400px;
+    border: 9px solid rgb(8, 8, 8);
+}
+button{
+    height: 40px;
+    width: 50px;
+}
+#result{
+    height:27px;
+    box-shadow: 3px 4px 2px rgb(16, 16, 16);
+    margin-bottom: 30px;
+}
+button{
+    background-image: linear-gradient(rgb(73, 230, 183),rgb(161, 48, 236));
+   margin-left: 4px;
+   margin-bottom: 3px;
+    box-shadow: 3px 4px 2px rgb(17, 16, 17);
+}
+button:hover {
+    color: black;
+    outline: 0.05em solid rgb(14, 14, 15);
+    z-index: 3;
+    top: -4px;
+    height: 40px;
+    width: 40px;
+
+}
+.box:hover #result{
+    border-radius: 50px;
+    box-shadow: 4px 6px 2px rgb(8, 8, 8);
+    /* border: 3px solid brown; */
+}
+
+.heading{
+   padding-top: 20px;
+    background-color: rgb(202, 237, 45),rgb(45, 78, 226),rgb(11, 11, 11);
+}
+.box:hover .heading{
+    border-top-right-radius:7px ;
+    background-color: rgb(210, 210, 226);
+}
+@keyframes changeColor {
+    0% {
+        background-color: rgb(175, 249, 46);
+    }
+
+    10% {
+        background-color: rgb(81, 218, 236);
+    }
+
+    20% {
+        background-color: rgb(46, 240, 230);
+    }
+
+    30% {
+        background-color: rgb(213, 224, 8);
+    }
+
+    40% {
+        background-color: rgb(220, 15, 220);
+    }
+
+    50% {
+        background-color: rgb(36, 6, 88);
+    }
+
+    60% {
+        background-color: rgb(224, 86, 11);
+    }
+
+    70% {
+        background-color: rgb(113, 155, 199);
+    }
+
+    80% {
+        background-color: rgb(131, 16, 208);
+    }
+
+    90% {
+        background-color: rgb(212, 26, 88);
+    }
+
+    100% {
+        background-color: rgb(202, 232, 34);
+    }
+}
+
+.box:hover h1{
+    text-shadow: 2px 2px  rgb(19, 29, 219);
+}
+body {
+    background: rgb(10, 10, 10);
+    animation: changeColor 3s infinite;
+content: "";
+height: 100%;
+width: 90%;
+}

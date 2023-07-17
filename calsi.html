@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body><center>
+  <div class="box">
+    <div class="calculator">
+       <div class="heading">
+        
+        <h1>♥Calculator♥</h1>
+    </div>
+        <input type="text" id="result" readonly placeholder="Your Result♥!">
+        <div class="table">
+        <table>
+        <tr>
+            <td><button onclick="appendNumber(7)"><b>7</b></button></td>
+            <td><button onclick="appendNumber(8)"><b>8</b></button></td>
+            <td><button onclick="appendNumber(9)"><b>9</b></button></td>
+            <td><button onclick="Setoperator('+')">+</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="appendNumber(4)"><b>4</b></button></td>
+            <td><button onclick="appendNumber(5)"><b>5</b></button></td>
+            <td><button onclick="appendNumber(6)"><b>6</b></button></td>
+            <td><button onclick="Setoperator('-')">-</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="appendNumber(1)"><b>1</b></button></td>
+            <td><button onclick="appendNumber(2)"><b>2</b></button></button></td>
+            <td><button onclick="appendNumber(3)"><b>3</b></button></td>
+            <td><button onclick="Setoperator('*')">*</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="appendNumber(0)"><b>0</b></button></td>
+            <td><button onclick="clearresult('C')"><b>C</b></button></td>
+            <td><button onclick="calculate('=')"><b>=</b></button></td>
+            <td><button onclick="Setoperator('/')">/</button></td>
+        </tr>
+        </table>
+    </div>
+    </div></center>
+</div>
+
+
+
+
+</body>
+</html>
